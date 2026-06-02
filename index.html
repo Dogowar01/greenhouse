@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Greenhouse">
+  <meta name="theme-color" content="#0f1a0f">
+  <title>Greenhouse</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app"></div>
+  <nav id="bottom-nav">
+    <button id="nav-home" onclick="navigate('home')">
+      <span class="nav-icon">🌿</span>
+      <span class="nav-label">Home</span>
+    </button>
+    <button id="nav-plants" onclick="navigate('plants')">
+      <span class="nav-icon">🪴</span>
+      <span class="nav-label">Plants</span>
+    </button>
+    <button id="nav-calendar" onclick="navigate('calendar')">
+      <span class="nav-icon">📅</span>
+      <span class="nav-label">Calendar</span>
+    </button>
+    <button id="nav-chat" onclick="navigate('chat')">
+      <span class="nav-icon">💬</span>
+      <span class="nav-label">Ask</span>
+    </button>
+    <button id="nav-settings" onclick="navigate('settings')">
+      <span class="nav-icon">⚙️</span>
+      <span class="nav-label">Settings</span>
+    </button>
+  </nav>
+  <script src="app.js"></script>
+</body>
+</html>
