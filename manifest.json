@@ -1,0 +1,14 @@
+{
+  "name": "Greenhouse",
+  "short_name": "Greenhouse",
+  "description": "Smart plant care for Tasmania",
+  "start_url": "/greenhouse/",
+  "scope": "/greenhouse/",
+  "display": "standalone",
+  "background_color": "#0f1a0f",
+  "theme_color": "#0f1a0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
